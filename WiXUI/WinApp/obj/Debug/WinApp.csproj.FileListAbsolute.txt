@@ -1,0 +1,11 @@
+C:\Users\NewStar\Downloads\WiXUI\WiXUI\WinApp\bin\Debug\Help.rtf
+C:\Users\NewStar\Downloads\WiXUI\WiXUI\WinApp\bin\Debug\ReadMe.txt
+C:\Users\NewStar\Downloads\WiXUI\WiXUI\WinApp\bin\Debug\WinApp.exe.config
+C:\Users\NewStar\Downloads\WiXUI\WiXUI\WinApp\bin\Debug\WinApp.exe
+C:\Users\NewStar\Downloads\WiXUI\WiXUI\WinApp\bin\Debug\WinApp.pdb
+C:\Users\NewStar\Downloads\WiXUI\WiXUI\WinApp\obj\Debug\WinApp.Form1.resources
+C:\Users\NewStar\Downloads\WiXUI\WiXUI\WinApp\obj\Debug\WinApp.Properties.Resources.resources
+C:\Users\NewStar\Downloads\WiXUI\WiXUI\WinApp\obj\Debug\WinApp.csproj.GenerateResource.cache
+C:\Users\NewStar\Downloads\WiXUI\WiXUI\WinApp\obj\Debug\WinApp.csproj.CoreCompileInputs.cache
+C:\Users\NewStar\Downloads\WiXUI\WiXUI\WinApp\obj\Debug\WinApp.exe
+C:\Users\NewStar\Downloads\WiXUI\WiXUI\WinApp\obj\Debug\WinApp.pdb

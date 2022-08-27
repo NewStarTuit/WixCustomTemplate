@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Fragment>
+    <UI Id="InstallPathDialogUI">
+
+      <DialogRef Id="ProgressDialog"/>
+    
+    
+      <Dialog Id="InstallPathDialog" Width="400" Height="300" Title="Silly Software">
+
+        <Control Id="background" Type="Bitmap" Text="bgPic" Height="300" Width="400" X="0" Y="0" TabSkip="no" />
+
+        <Control Id="TxtLocalPath" Type="PathEdit" X="15" Y="164" Width="290" Height="18" Property="INSTALLFOLDER" />
+        <Control Id="BrowseLocalPath" Type="PushButton" X="310" Y="164" Width="50" Height="17" Text="...">
+          <Publish Property="_BrowseProperty" Value="INSTALLFOLDER">1</Publish>
+          <Publish Event="SpawnDialog" Value="BrowseDlg">1</Publish>
+        </Control>
+
+        <Control Id="installButton" Type="PushButton" Text="[Install]" Height="40" Width="144" X="135" Y="200" Bitmap="yes">
+          <Publish Event="EndDialog" Value="Return" />
+        </Control>
+
+        <Control Id="cancelButton" Type="PushButton" Text="[Cancel]" Height="40" Width="144" X="135" Y="245" Cancel="yes" Bitmap="yes">
+          <Publish Event="EndDialog" Value="Exit" />
+        </Control>
+
+
+      </Dialog>
+
+    </UI>
+
+    <InstallUISequence>
+      <Show Dialog="InstallPathDialog" After="SetupDialog" />
+    </InstallUISequence>
+	</Fragment>
+</Wix>
